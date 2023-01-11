@@ -4,7 +4,12 @@ public class Aresta {
 	private Vertice destino;
 	private int peso;
 	
-	
+	public Aresta(Vertice origem, Vertice destino, int peso) {
+		super();
+		this.origem = origem;
+		this.destino = destino;
+		this.peso = peso;
+	}
 	public Vertice getOrigem() {
 		return origem;
 	}

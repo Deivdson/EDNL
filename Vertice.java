@@ -21,6 +21,9 @@ public class Vertice {
 	public void remAresta(Aresta v) {
 		arestas.remove(v);
 	}
+	public void clearArestas() {
+		arestas.clear();
+	}
 
 	public String getDado() {
 		return dado;
